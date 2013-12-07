@@ -25,16 +25,17 @@ app.get '/server/:id', (req, res) ->
 app.post '/server', (req, res) ->
   if not (req.body.hasOwnProperty('ip') and req.body.hasOwnProperty('name'))
     res.statusCode = 400
+    console.log req.body
     return res.send('Error 400: Post syntax incorrect')
 
   newServer =
-    id: servers[servers.length - 1].id + 1
+    id: (servers[servers.length - 1]?.id or 0) + 1
     ip: req.body.ip
     port: req.body.port or 54556
     name: req.body.name
 
   servers.push(newServer)
-  res.json(true)
+  res.json({ success: true, id: newServer.id })
 
 app.delete '/server/:id', (req, res) ->
   server = (server for server in servers when server.id is parseInt(req.params.id))
