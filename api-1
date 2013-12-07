@@ -1,0 +1,24 @@
+VoB API:
+
+vob.ahsgaming.com/api/v1/
+
+/users
+  - GET (gets all users)
+  - POST (adds a user)
+  
+/users/:id
+  - GET (gets a user)
+  - DELETE (deletes a user)
+  - PUT/POST (updates a user)
+
+/servers
+  - GET (list servers)
+  - POST (add a server)
+
+/servers/:id
+  - GET (get server info)
+  - DELETE (remove server)
+  - PUT/POST (update server)
+
+/games
+  - POST (sends a new game - will be assigned uid, etc)
