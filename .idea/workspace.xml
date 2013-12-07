@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e86ab590-fc30-4bcf-9f4a-47763c99e46f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.coffee" afterPath="$PROJECT_DIR$/app.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="valley-of-bones-master-server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -15,11 +14,11 @@
     <file path="$PROJECT_DIR$/../../java/valley-of-bones/src/com/ahsgaming/valleyofbones/screens/LevelScreen.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386447292239" ignored="false" />
     <file path="/LevelScreen.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386447291899" ignored="false" />
     <file path="$PROJECT_DIR$/../../java/valley-of-bones/src/com/ahsgaming/valleyofbones/screens/ServerScreen.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386447381998" ignored="false" />
-    <file path="$PROJECT_DIR$/../../java/valley-of-bones/src/com/ahsgaming/valleyofbones/network/GameServer.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386451164303" ignored="false" />
-    <file path="/GameServer.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386451163943" ignored="false" />
+    <file path="$PROJECT_DIR$/../../java/valley-of-bones/src/com/ahsgaming/valleyofbones/network/GameServer.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386451245017" ignored="false" />
+    <file path="/GameServer.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386451244613" ignored="false" />
     <file path="$PROJECT_DIR$/../../java/valley-of-bones/src/com/ahsgaming/valleyofbones/Utils.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386449161397" ignored="false" />
     <file path="/Utils.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386449136059" ignored="false" />
-    <file path="/app.coffee" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386450153271" ignored="false" />
+    <file path="/app.coffee" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386451554843" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +91,7 @@
       <file leaf-file-name="app.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="12" selection-start="820" selection-end="820" vertical-scroll-proportion="0.32384342">
+            <state line="32" column="47" selection-start="840" selection-end="840" vertical-scroll-proportion="0.30130488">
               <folding />
             </state>
           </provider>
@@ -425,7 +424,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="12" selection-start="820" selection-end="820" vertical-scroll-proportion="0.32384342">
+        <state line="32" column="47" selection-start="840" selection-end="840" vertical-scroll-proportion="0.30130488">
           <folding />
         </state>
       </provider>
