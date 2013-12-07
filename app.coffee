@@ -46,5 +46,6 @@ app.delete '/server/:id', (req, res) ->
   servers.splice(servers.indexOf(server[0]), 1)
   res.json(true)
 
+app.enable('trust proxy')
 app.listen process.env.PORT or 4730, ->
   console.log "Listening on #{process.env.PORT or 4730}"
