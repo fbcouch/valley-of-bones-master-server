@@ -14,8 +14,8 @@
     <file path="$PROJECT_DIR$/../../java/valley-of-bones/src/com/ahsgaming/valleyofbones/screens/LevelScreen.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386447292239" ignored="false" />
     <file path="/LevelScreen.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386447291899" ignored="false" />
     <file path="$PROJECT_DIR$/../../java/valley-of-bones/src/com/ahsgaming/valleyofbones/screens/ServerScreen.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386447381998" ignored="false" />
-    <file path="$PROJECT_DIR$/../../java/valley-of-bones/src/com/ahsgaming/valleyofbones/network/GameServer.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386451245017" ignored="false" />
-    <file path="/GameServer.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386451244613" ignored="false" />
+    <file path="$PROJECT_DIR$/../../java/valley-of-bones/src/com/ahsgaming/valleyofbones/network/GameServer.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386452042607" ignored="false" />
+    <file path="/GameServer.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386452042235" ignored="false" />
     <file path="$PROJECT_DIR$/../../java/valley-of-bones/src/com/ahsgaming/valleyofbones/Utils.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386449161397" ignored="false" />
     <file path="/Utils.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386449136059" ignored="false" />
     <file path="/app.coffee" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386451846281" ignored="false" />
@@ -91,7 +91,7 @@
       <file leaf-file-name="app.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="25" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.6619217">
+            <state line="33" column="19" selection-start="864" selection-end="864" vertical-scroll-proportion="0.52669036">
               <folding />
             </state>
           </provider>
@@ -424,7 +424,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="25" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.6619217">
+        <state line="33" column="19" selection-start="864" selection-end="864" vertical-scroll-proportion="0.52669036">
           <folding />
         </state>
       </provider>

@@ -30,7 +30,7 @@ app.post '/server', (req, res) ->
 
   newServer =
     id: (servers[servers.length - 1]?.id or 0) + 1
-    ip: req.ips or req.connection.remoteAddress
+    ip: req.ips?[0] or req.connection.remoteAddress
     port: req.body.port or 54556
     name: req.body.name
 
