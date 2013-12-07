@@ -6,10 +6,7 @@ app = express();
 
 app.use(express.bodyParser())
 
-servers = [
-  { id: 0, ip: "127.0.0.1", port: "54556", name: "a server!" }
-  { id: 1, ip: "127.0.1.1", port: "54556", name: "another server!" }
-]
+servers = []
 
 app.get '/', (req, res) ->
   res.json(servers)
