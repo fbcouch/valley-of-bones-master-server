@@ -11,16 +11,16 @@ servers = []
 app.get '/', (req, res) ->
   res.json(servers)
 
-app.get '/server/random', (req, res) ->
-  id = Math.floor(Math.random() * servers.length)
-  res.json(servers[id])
-
 app.get '/server/:id', (req, res) ->
   server = (server for server in servers when server.id is parseInt(req.params.id))
   if server.length is 0
     res.statusCode = 404
     return res.send('Error 404: No server found')
   res.json(server.pop())
+
+app.put '/server/:id', (req, res) ->
+  res.statusCode = 501
+  return res.send('Error 501: Feature not implemented')
 
 app.post '/server', (req, res) ->
   if not (req.body.hasOwnProperty('name'))
@@ -45,6 +45,18 @@ app.delete '/server/:id', (req, res) ->
 
   servers.splice(servers.indexOf(server[0]), 1)
   res.json(true)
+
+app.get '/game/:id', (req, res) ->
+  res.statusCode = 501
+  return res.send('Error 501: Feature not implemented')
+
+app.get '/game', (req, res) ->
+  res.statusCode = 501
+  return res.send('Error 501: Feature not implemented')
+
+app.post '/game', (req, res) ->
+  res.statusCode = 501
+  return res.send('Error 501: Feature not implemented')
 
 app.enable('trust proxy')
 app.listen process.env.PORT or 4730, ->
