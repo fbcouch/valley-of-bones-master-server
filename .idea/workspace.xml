@@ -108,7 +108,7 @@
       <file leaf-file-name="app.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="16" selection-start="217" selection-end="217" vertical-scroll-proportion="0.13584475">
+            <state line="26" column="17" selection-start="211" selection-end="652" vertical-scroll-proportion="0.5045662">
               <folding />
             </state>
           </provider>
@@ -511,7 +511,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="217" selection-end="217" vertical-scroll-proportion="0.13584475">
+        <state line="26" column="17" selection-start="211" selection-end="652" vertical-scroll-proportion="0.5045662">
           <folding />
         </state>
       </provider>
