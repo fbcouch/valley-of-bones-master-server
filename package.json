@@ -1,10 +1,10 @@
 {
     "name": "valley-of-bones-master-server",
     "description": "master game list for VoB",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependencies": {
         "express": "3.x",
         "coffee-script": "1.x",
-	"pg": "2.8.x"
+	    "pg": "2.8.x"
     }
 }

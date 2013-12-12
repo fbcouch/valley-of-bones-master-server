@@ -3,6 +3,28 @@
 
 express = require('express')
 app = express();
+pg = require('pg')
+connectionString = process.env.DATABASE_URL or "pg://secure-caverns:1234@localhost/serverdb"
+
+pg.connect connectionString, (err, client, done) ->
+  if err?
+    console.log err
+    done()
+    return
+  console.log "database connected"
+  client.query(
+    """
+    CREATE TABLE IF NOT EXISTS games (
+      id bigserial primary key,
+      version varchar(20),
+      date date,
+      game text
+    );
+    """).on 'end', ->
+      done()
+
+client = new pg.Client(connectionString)
+client.connect()
 
 app.use(express.bodyParser())
 
@@ -51,12 +73,20 @@ app.get '/game/:id', (req, res) ->
   return res.send('Error 501: Feature not implemented')
 
 app.get '/game', (req, res) ->
-  res.statusCode = 501
-  return res.send('Error 501: Feature not implemented')
+  games = []
+  client.query('SELECT * FROM games ORDER BY date DESC').on('row', (result) -> games.push result).on 'end', (result) ->
+    res.send(games)
 
 app.post '/game', (req, res) ->
-  res.statusCode = 501
-  return res.send('Error 501: Feature not implemented')
+  if not (req.body.hasOwnProperty('version') and req.body.hasOwnProperty('game'))
+    res.statusCode = 400
+    res.send('Error 400: Post syntax incorrect')
+
+  client.query(
+    "INSERT INTO games (date, version, game) VALUES (NOW(), $1, $2)", [req.body.version, req.body.game]
+  ).on 'end', (result) ->
+    console.log result
+    res.send(result)
 
 app.enable('trust proxy')
 app.listen process.env.PORT or 4730, ->
