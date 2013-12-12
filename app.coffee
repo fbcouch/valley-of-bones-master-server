@@ -5,26 +5,26 @@ express = require('express')
 app = express();
 pg = require('pg')
 connectionString = process.env.DATABASE_URL or "pg://secure-caverns:1234@localhost/serverdb"
-#console.log process.env.DATABASE_URL
-#pg.connect connectionString, (err, client, done) ->
-#  if err?
-#    console.log err
-#    done()
-#    return
-#  console.log "database connected"
-#  client.query(
-#    """
-#    CREATE TABLE IF NOT EXISTS games (
-#      id bigserial primary key,
-#      version varchar(20),
-#      date date,
-#      game text
-#    );
-#    """).on 'end', ->
-#      done()
-#
-#client = new pg.Client(connectionString)
-#client.connect()
+
+pg.connect connectionString, (err, client, done) ->
+  if err?
+    console.log err
+    done()
+    return
+  console.log "database connected"
+  client.query(
+    """
+    CREATE TABLE IF NOT EXISTS games (
+      id bigserial primary key,
+      version varchar(20),
+      date date,
+      game text
+    );
+    """).on 'end', ->
+      done()
+
+client = new pg.Client(connectionString)
+client.connect()
 
 app.use(express.bodyParser())
 
