@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e86ab590-fc30-4bcf-9f4a-47763c99e46f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.coffee" afterPath="$PROJECT_DIR$/app.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="valley-of-bones-master-server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,7 +18,7 @@
     <file path="/GameServer.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386888525853" ignored="false" />
     <file path="$PROJECT_DIR$/../../java/valley-of-bones/src/com/ahsgaming/valleyofbones/Utils.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386449161397" ignored="false" />
     <file path="/Utils.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386449136059" ignored="false" />
-    <file path="/app.coffee" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386890408160" ignored="false" />
+    <file path="/app.coffee" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386892191676" ignored="false" />
     <file path="$PROJECT_DIR$/../../java/valley-of-bones/src/com/ahsgaming/valleyofbones/screens/GameJoinScreen.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386877925743" ignored="false" />
     <file path="/GameJoinScreen.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386870106233" ignored="false" />
     <file path="$PROJECT_DIR$/../../java/valley-of-bones/src/com/ahsgaming/valleyofbones/screens/GameSetupScreen.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386455150535" ignored="false" />
@@ -110,7 +108,7 @@
       <file leaf-file-name="app.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="19" selection-start="1912" selection-end="1912" vertical-scroll-proportion="0.38812786">
+            <state line="7" column="16" selection-start="217" selection-end="217" vertical-scroll-proportion="0.13584475">
               <folding />
             </state>
           </provider>
@@ -134,8 +132,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app.coffee" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/app.coffee" />
       </list>
     </option>
   </component>
@@ -513,7 +511,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="19" selection-start="1912" selection-end="1912" vertical-scroll-proportion="0.38812786">
+        <state line="7" column="16" selection-start="217" selection-end="217" vertical-scroll-proportion="0.13584475">
           <folding />
         </state>
       </provider>

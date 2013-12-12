@@ -5,7 +5,7 @@ express = require('express')
 app = express();
 pg = require('pg')
 connectionString = process.env.DATABASE_URL or "pg://secure-caverns:1234@localhost/serverdb"
-
+console.log process.env.DATABASE_URL
 pg.connect connectionString, (err, client, done) ->
   if err?
     console.log err
