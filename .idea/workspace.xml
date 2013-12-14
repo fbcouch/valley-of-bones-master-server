@@ -15,13 +15,13 @@
     <file path="$PROJECT_DIR$/../../java/valley-of-bones/src/com/ahsgaming/valleyofbones/screens/LevelScreen.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386979379782" ignored="false" />
     <file path="/LevelScreen.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386979377500" ignored="false" />
     <file path="$PROJECT_DIR$/../../java/valley-of-bones/src/com/ahsgaming/valleyofbones/screens/ServerScreen.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386447381998" ignored="false" />
-    <file path="$PROJECT_DIR$/../../java/valley-of-bones/src/com/ahsgaming/valleyofbones/network/GameServer.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386980730636" ignored="false" />
-    <file path="/GameServer.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386980729357" ignored="false" />
+    <file path="$PROJECT_DIR$/../../java/valley-of-bones/src/com/ahsgaming/valleyofbones/network/GameServer.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386982507358" ignored="false" />
+    <file path="/GameServer.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386982507358" ignored="false" />
     <file path="$PROJECT_DIR$/../../java/valley-of-bones/src/com/ahsgaming/valleyofbones/Utils.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386449161397" ignored="false" />
     <file path="/Utils.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386449136059" ignored="false" />
-    <file path="/app.coffee" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386981466314" ignored="false" />
-    <file path="$PROJECT_DIR$/../../java/valley-of-bones/src/com/ahsgaming/valleyofbones/screens/GameJoinScreen.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386980193830" ignored="false" />
-    <file path="/GameJoinScreen.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386980180417" ignored="false" />
+    <file path="/app.coffee" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386982512910" ignored="false" />
+    <file path="$PROJECT_DIR$/../../java/valley-of-bones/src/com/ahsgaming/valleyofbones/screens/GameJoinScreen.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386981978279" ignored="false" />
+    <file path="/GameJoinScreen.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386981977073" ignored="false" />
     <file path="$PROJECT_DIR$/../../java/valley-of-bones/src/com/ahsgaming/valleyofbones/screens/GameSetupScreen.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386455150535" ignored="false" />
     <file path="/GameSetupScreen.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386455148327" ignored="false" />
     <file path="/MPGameClient.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386980138276" ignored="false" />
@@ -37,7 +37,7 @@
     <file path="$PROJECT_DIR$/../../java/valley-of-bones/src/com/ahsgaming/valleyofbones/network/KryoCommon.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386979825928" ignored="false" />
     <file path="$PROJECT_DIR$/../../java/valley-of-bones/src/com/ahsgaming/valleyofbones/units/Unit.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386978722418" ignored="false" />
     <file path="$PROJECT_DIR$/../../java/valley-of-bones/src/com/ahsgaming/valleyofbones/VOBServer.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386872450961" ignored="false" />
-    <file path="$PROJECT_DIR$/../../java/valley-of-bones/src/com/ahsgaming/valleyofbones/VOBGame.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386892532574" ignored="false" />
+    <file path="$PROJECT_DIR$/../../java/valley-of-bones/src/com/ahsgaming/valleyofbones/VOBGame.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386981986721" ignored="false" />
     <file path="/valley-of-bones-client.xml" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386892975403" ignored="false" />
     <file path="$PROJECT_DIR$/../../java/valley-of-bones/valley-of-bones-client.xml" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386892978586" ignored="false" />
     <file path="$PROJECT_DIR$/../../java/valley-of-bones/src/com/ahsgaming/valleyofbones/screens/panels/BuildPanel.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386978722418" ignored="false" />
@@ -46,6 +46,7 @@
     <file path="/ROADMAP.md" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386979425286" ignored="false" />
     <file path="$PROJECT_DIR$/../../java/valley-of-bones/src/com/ahsgaming/valleyofbones/Player.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386979669426" ignored="false" />
     <file path="/KryoCommon.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386979824480" ignored="false" />
+    <file path="/VOBGame.java" changelist="e86ab590-fc30-4bcf-9f4a-47763c99e46f" time="1386981986403" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +119,7 @@
       <file leaf-file-name="app.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="27" selection-start="1504" selection-end="1504" vertical-scroll-proportion="0.38812786">
+            <state line="52" column="50" selection-start="1414" selection-end="1414" vertical-scroll-proportion="0.5045662">
               <folding />
             </state>
           </provider>
@@ -521,7 +522,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="27" selection-start="1504" selection-end="1504" vertical-scroll-proportion="0.38812786">
+        <state line="52" column="50" selection-start="1414" selection-end="1414" vertical-scroll-proportion="0.5045662">
           <folding />
         </state>
       </provider>

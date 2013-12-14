@@ -40,7 +40,7 @@ app.get '/server/:id', (req, res) ->
     return res.send('Error 404: No server found')
   res.json(server.pop())
 
-app.put '/server/:id', (req, res) ->
+app.post '/server/:id', (req, res) ->
   server = (server for server in servers when server.id is parseInt(req.params.id))
   if (server.length is 0)
     res.statusCode = 404
