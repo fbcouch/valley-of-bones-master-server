@@ -41,8 +41,17 @@ app.get '/server/:id', (req, res) ->
   res.json(server.pop())
 
 app.put '/server/:id', (req, res) ->
-  res.statusCode = 501
-  return res.send('Error 501: Feature not implemented')
+  server = (server for server in servers when server.id is parseInt(req.params.id))
+  if (server.length is 0)
+    res.statusCode = 404
+    return res.send('Error 404: No server found')
+  server = server[0]
+  server.ip = req.body.ip or server.ip
+  server.port = req.body.port or server.port
+  server.name = req.body.name or server.name
+  server.players = req.body.players or server.players
+  server.status = req.body.status or server.status
+  res.json({success: true})
 
 app.post '/server', (req, res) ->
   if not (req.body.hasOwnProperty('name'))
@@ -55,6 +64,8 @@ app.post '/server', (req, res) ->
     ip: req.ips?[0] or req.connection.remoteAddress
     port: req.body.port or 54556
     name: req.body.name
+    players: req.body.players or 0
+    status: req.body.status or 0
 
   servers.push(newServer)
   res.json({ success: true, id: newServer.id })
