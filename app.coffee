@@ -26,6 +26,7 @@ pg.connect connectionString, (err, client, done) ->
 client = new pg.Client(connectionString)
 client.connect()
 
+app.use(allowCrossDomain)
 app.use(express.bodyParser())
 
 servers = []
@@ -102,3 +103,10 @@ app.post '/game', (req, res) ->
 app.enable('trust proxy')
 app.listen process.env.PORT or 4730, ->
   console.log "Listening on #{process.env.PORT or 4730}"
+
+allowCrossDomain = (req, res, next) ->
+  res.header('Access-Control-Allow-Origin', '*')
+  res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
+  res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization, Content-Length, X-Requested-With')
+
+  if req.method is 'OPTIONS' then res.send(200) else next()
